@@ -97,11 +97,11 @@
         <version>3.3.1</version>
         <configuration>
           <suiteXmlFiles>
-<<<<<<< HEAD
+
             <suiteXmlFile>Amazon10testng.xml</suiteXmlFile>
-=======
-            <suiteXmlFile>Parallelltestng.xml</suiteXmlFile>
->>>>>>> 54b5b5b05bd8185caa777312b6989907c9bcbd31
+
+            <suiteXmlFile>Amazon10testng.xml</suiteXmlFile>
+
           </suiteXmlFiles>
         </configuration>
       </plugin>
