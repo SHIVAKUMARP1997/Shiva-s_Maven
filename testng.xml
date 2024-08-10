@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon_Automation">
+  <test thread-count="5" name="Test_Execution">
+    <classes>
+      <class name="pgrm_exmples.AddToCart"/>
+      <class name="pgrm_exmples.LogoutFromAmazon"/>
+      <class name="pgrm_exmples.AddingToWishList"/>
+      <class name="pgrm_exmples.Searching_In_Amazon"/>
+      <class name="pgrm_exmples.LoginToAmazon"/>
+    </classes>
+  </test> <!-- Test_Execution -->
+</suite> <!-- Amazon_Automation -->
