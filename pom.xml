@@ -38,12 +38,11 @@
     <version>5.2.3</version>
 </dependency>
 
-	<dependency>
-      <groupId>org.testng</groupId>
+<dependency>
+   <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>6.9.8</version>
-      <scope>test</scope>
-    </dependency>
+   <version>6.9.8</version>
+</dependency>
 
 	
   </dependencies>
@@ -92,13 +91,17 @@
         </plugin>
         
              
-		<plugin>
+	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.3.1</version>
         <configuration>
           <suiteXmlFiles>
+<<<<<<< HEAD
             <suiteXmlFile>Amazon10testng.xml</suiteXmlFile>
+=======
+            <suiteXmlFile>Parallelltestng.xml</suiteXmlFile>
+>>>>>>> 54b5b5b05bd8185caa777312b6989907c9bcbd31
           </suiteXmlFiles>
         </configuration>
       </plugin>
