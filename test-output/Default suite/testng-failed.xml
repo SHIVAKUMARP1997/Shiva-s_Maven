@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom_Amazon_scene.Case1">
+      <class name="testNG_essencials.Note">
         <methods>
-          <include name="Login_With_Credentials"/>
+          <include name="shiva"/>
         </methods>
-      </class> <!-- pom_Amazon_scene.Case1 -->
+      </class> <!-- testNG_essencials.Note -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

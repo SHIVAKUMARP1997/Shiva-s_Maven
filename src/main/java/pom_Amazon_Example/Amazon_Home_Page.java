@@ -18,18 +18,8 @@ public class Amazon_Home_Page {
 	@FindBy(id = "twotabsearchtextbox" ) WebElement search_txt_field;
 	@FindBy(xpath = "//a/div/img[@data-image-index=\"1\"]" ) WebElement first_Item;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-// Step 2: Create a Sepersate methods for each componetb to perform its action.
+// Step 2: Create a Sepersate methods for each components to perform its action.
 	public void srch_first_item() {
 		search_txt_field.sendKeys("Shoe");
 		search_txt_field.sendKeys(Keys.ENTER);
@@ -43,12 +33,9 @@ public class Amazon_Home_Page {
 	
 // Step 3: initialization of each element using PageFactory Class inside the constructor..
 	
-	public Amazon_Home_Page(WebDriver driver) {
-		
-		
+	public Amazon_Home_Page(WebDriver driver){
 		PageFactory.initElements(driver, this);
-		
-	}
+		}
 	
 	
 }
